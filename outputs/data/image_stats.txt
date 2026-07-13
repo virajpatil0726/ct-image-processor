@@ -1,0 +1,8 @@
+CT Image Processing Statistics
+==============================
+Date: 13-Jul-2026 12:30:46
+Image Size: 256x256
+Min Pixel: -0.0000
+Max Pixel: 1.0000
+Mean Pixel: 0.1227
+Std Deviation: 0.2135
