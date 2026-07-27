@@ -1,0 +1,19 @@
+% Day 6 - Loading and Displaying Images
+% Author: Viraj Patil 
+
+%% 1. Create CT Phantom Image
+ct_image = phantom(256);
+
+%% 2. Display the image
+figure;
+imshow(ct_image, []);
+title('My CT Image');
+
+%% 3. Check image size
+[rows, cols] = size(ct_image);
+fprint('Image size : %d x %d'\n', rows, cols);
+
+%% 4. Pixel range 
+min_val = min(ct_image(:));
+max_val = max(ct_image)
+
