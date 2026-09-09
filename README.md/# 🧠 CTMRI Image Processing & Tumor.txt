@@ -33,6 +33,9 @@ regions of interest.
 ### Segmentation Thresholding
 ![Segmentation](outputs/figures/day15_segmentation.png)
 
+### Region Labeling and Measurements
+![Regions](outputs/figures/day16_regions.png)
+
 ## 🛠️ Technologies
 - MATLAB R2025b
 - Image Processing Toolbox
