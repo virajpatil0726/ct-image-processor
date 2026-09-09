@@ -1,0 +1,42 @@
+% Day 15 - Introduction to Segmentation
+% Author: Viraj Patil
+
+%% Load CT image
+ct_image = phantom(256);
+
+%% 1. Simple thresholding
+binary = imbinarize(ct_image, 0.3);
+
+%% 2. Try different thresholds
+thresh_low = imbinarize(ct_image, 0.1);
+thresh_mid = imbinarize(ct_image, 0.3);
+thresh_high = imbinarize(ct_image, 0.6);
+
+%% 3. Compare results
+figure;
+
+subplot(2, 2, 1);
+imshow(ct_image, []);
+title('Original CT');
+
+subplot(2, 2, 2);
+imshow(thresh_low);
+title('Low Threshold (0.1)');
+
+subplot(2, 2, 3);
+imshow(thresh_mid);
+title('Mid Threshold (0.3)');
+
+subplot(2, 2, 4);
+imshow(thresh_high);
+title('High Threshold (0.6)');
+
+sgtitle('Day 15: Segmentation - Thresholding');
+
+%% 4. Count segmented pixels
+total_pixels = numel(binary);
+bright_pixels = sum(sum(binary));
+percentage = (bright_pixels / total_pixels) * 100;
+fprintf('Bright region: %.1f%% of image\n', percentage);
+
+disp('Day 15 Complete!');
