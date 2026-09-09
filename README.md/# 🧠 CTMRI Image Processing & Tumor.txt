@@ -16,6 +16,23 @@ regions of interest.
 - 🔄 Segmentation (in progress)
 - 🔄 Measurements and reporting
 
+## 📸 Sample Results
+
+### CT Phantom Image
+![CT Phantom](outputs/figures/day4_phantom.png)
+
+### Image Enhancement Pipeline
+![Enhancement](outputs/figures/day9_enhancement.png)
+
+### Noise Reduction
+![Noise Reduction](outputs/figures/day10_noise.png)
+
+### Edge Detection (Sobel vs Canny)
+![Edge Detection](outputs/figures/day12_edges.png)
+
+### Segmentation Thresholding
+![Segmentation](outputs/figures/day15_segmentation.png)
+
 ## 🛠️ Technologies
 - MATLAB R2025b
 - Image Processing Toolbox
