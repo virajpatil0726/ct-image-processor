@@ -1,0 +1,43 @@
+# 🧠 CT/MRI Image Processing & Tumor Detector
+
+![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-orange)
+![Field](https://img.shields.io/badge/Field-Medical%20Imaging-blue)
+![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+
+A MATLAB-based medical image processing pipeline that loads CT/MRI 
+scans, enhances image quality, detects organ boundaries, and segments 
+regions of interest.
+
+## 📊 Features
+- ✅ CT/MRI image loading (DICOM support)
+- ✅ Image enhancement (contrast, noise reduction)
+- ✅ Edge detection (Sobel, Canny)
+- ✅ Morphological operations
+- 🔄 Segmentation (in progress)
+- 🔄 Measurements and reporting
+
+## 🛠️ Technologies
+- MATLAB R2025b
+- Image Processing Toolbox
+- Computer Vision Toolbox
+
+## 📁 Project Structure
+- `day1_basics.m` — MATLAB fundamentals
+- `day2_loops_functions.m` — Loops and conditions
+- `day3_functions.m` — Functions and tissue classifier
+- `day4_plotting.m` — CT phantom and plotting
+- `day5_organization.m` — Project organization
+- `day6_load_images.m` — Loading images
+- `day7_real_images.m` — Real MRI brain scan
+- `day8_dicom.m` — DICOM file loading
+- `day9_enhancement.m` — Contrast adjustment
+- `day10_noise_reduction.m` — Noise reduction
+- `day11_pipeline.m` — Complete enhancement pipeline
+- `day12_edge_detection.m` — Edge detection
+- `day13_edge_optimization.m` — Edge optimization
+- `day14_morphology.m` — Morphological operations
+
+## 👨‍💻 Author
+Viraj Patil — Medical Systems Engineering
+Otto-von-Guericke-Universität Magdeburg
+DLR Intern (Sept-Nov 2026) — Cardiovascular Aerospace Medicine
