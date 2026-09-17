@@ -36,6 +36,11 @@ regions of interest.
 ### Region Labeling and Measurements
 ![Regions](outputs/figures/day16_regions.png)
 
+
+### Largest Region Detection
+![Largest Region](outputs/figures/day17_largest_region.png)
+
+
 ## 🛠️ Technologies
 - MATLAB R2025b
 - Image Processing Toolbox
