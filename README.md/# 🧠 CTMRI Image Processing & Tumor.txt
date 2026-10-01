@@ -40,6 +40,10 @@ regions of interest.
 ### Largest Region Detection
 ![Largest Region](outputs/figures/day17_largest_region.png)
 
+### Complete Medical Image Processing Pipeline
+![Pipeline](outputs/figures/day18_complete_pipeline.png)
+
+
 
 ## 🛠️ Technologies
 - MATLAB R2025b
