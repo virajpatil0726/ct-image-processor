@@ -1,0 +1,30 @@
+%% Day 18 - Complete Segmentation Pipeline 
+% Autor : Viraj patil 
+
+%% Step 1: Load image
+Ct_image = phantom(256);
+
+%% Step 2: Enhance 
+denoised = medfilt2(ct_image, [3 3 ]);
+enhanced = imadjust(denoised);
+
+%% Step 3: Segment 
+binary = imbinarize(enhanced, 0.2);
+
+%% Step 4 : Find regions 
+[Labeled, num_regions] = bwlabel(binary);
+props = regionprops(Labeled, 'Area', 'Centroid','BoundingBox');
+
+%% Step 5: Find Largest region 
+all_areas = [props.Areas];
+[max_area, max_idx] = max(all_areas);
+largest = Labeled == max_idx;
+
+%% Step 6: Measurements 
+centroid = props(max_idx).Centroid;
+bb = props(max_idx).BoundingBox;
+fprintf('=== PIPLELINE RESULTS ===\n');
+fprintf('Regions found: %d\n', num_regions);
+fprintf('Largest area: %d pixels\n', max_area);
+fprintf('Centroid: (%.1f, %.1f)\n', centroid(1), centroid(2));
+
