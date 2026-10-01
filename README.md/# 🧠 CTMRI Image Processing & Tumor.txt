@@ -36,13 +36,14 @@ regions of interest.
 ### Region Labeling and Measurements
 ![Regions](outputs/figures/day16_regions.png)
 
-
 ### Largest Region Detection
 ![Largest Region](outputs/figures/day17_largest_region.png)
 
 ### Complete Medical Image Processing Pipeline
 ![Pipeline](outputs/figures/day18_complete_pipeline.png)
 
+### Final Complete Pipeline
+![Final Demo](outputs/figures/day19_final_demo.png)
 
 
 ## 🛠️ Technologies

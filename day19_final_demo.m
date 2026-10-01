@@ -1,12 +1,11 @@
 % Day 19 - Final Demo Script
 % Author: Viraj Patil
-% Medical Systems Engineering - DLR Internship Preparation
+% Medical Systems Engineering 
 
 %% Complete pipeline in one clean script
 disp('=== CT Medical Image Processing Pipeline ===');
 disp('Author: Viraj Patil');
 disp('Field: Medical Systems Engineering');
-disp('Purpose: DLR Cardiovascular Aerospace Medicine');
 
 %% Load
 ct_image = phantom(256);
