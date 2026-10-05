@@ -2,7 +2,7 @@
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-orange)
 ![Field](https://img.shields.io/badge/Field-Medical%20Imaging-blue)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 A MATLAB-based medical image processing pipeline that loads CT/MRI 
 scans, enhances image quality, detects organ boundaries, and segments 
@@ -70,4 +70,11 @@ regions of interest.
 ## 👨‍💻 Author
 Viraj Patil — Medical Systems Engineering
 Otto-von-Guericke-Universität Magdeburg
-DLR Intern (Sept-Nov 2026) — Cardiovascular Aerospace Medicine
+
+## 🚀 Project Status
+This project was built as preparation for  Medicine Engineering. 
+All 20 days completed successfully!
+
+
+
+

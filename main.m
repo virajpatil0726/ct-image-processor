@@ -1,3 +1,6 @@
+% Required MATLAB Toolboxes:
+% - Image Processing Toolbox
+% - Statistics and Machine Learning Toolbox
 % ================================================
 % CT Medical Image Processing Pipeline
 % Author: Viraj Patil
